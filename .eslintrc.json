@@ -1,0 +1,13 @@
+{
+    "extends": ["react-app", "react-app/jest"],
+    "plugins": ["jsx-a11y"],
+    "rules": {
+        "import/no-cycle": "off",
+        "react/no-array-index-key": "off",
+        "no-nested-ternary": "off",
+        "import/prefer-default-export": "off",
+        "@typescript-eslint/no-non-null-assertion": "off",
+        "@typescript-eslint/ban-ts-ignore": "off",
+        "spaced-comment": ["error", "never", { "block": { "balanced": true } }]
+    }
+}
